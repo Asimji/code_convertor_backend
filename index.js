@@ -69,7 +69,7 @@ app.post("/convert", async (req, res) => {
                 messages:[
                     {
                         role: "system",
-                        content: `Can you do Quality check of this code and also give correct code for this`,
+                        content: `Can you do Quality check of this code and also give correct code for this do not explain just write code if neccessary after quality check`,
                       },
                       {
                         role: "user",
