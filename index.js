@@ -45,7 +45,7 @@ app.post("/convert", async (req, res) => {
                 messages:[
                     {
                         role: "system",
-                        content: `Can you please debug this code. and explain all the line briefly. do not tell the solution only give some suggestion for improvement`,
+                        content: `Can you please debug this code. and explain all the line briefly. do not tell the solution only give some suggestion for improvement also for single line do not exceeds with more than 13 words`,
                       },
                       {
                         role: "user",
@@ -69,7 +69,7 @@ app.post("/convert", async (req, res) => {
                 messages:[
                     {
                         role: "system",
-                        content: `Can you do Quality check of this code and also give correct code for this do not explain just write code if neccessary after quality check`,
+                        content: `Can you do Quality check of this code and also give correct code for this do not explain just write code if neccessary after quality check and also for single line do not exceeds with more than 13 words`,
                       },
                       {
                         role: "user",
